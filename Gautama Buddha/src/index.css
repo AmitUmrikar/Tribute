@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-decoration: none;
+}
+
+/*  Type Selector */
+body {
+     background-color: rgb(143, 199, 189);
+}
+
+nav {
+   padding-left: 2%;
+}
+
+/* Child Combinator */
+nav > span {
+    padding-right: 20px ;
+}
+
+/* Pseudo class selector*/
+a:hover{
+  color: rgb(41, 128, 0);
+}
+
+details {
+    padding-top: 20px;
+}
+
+.content {
+        margin: 0% 25%;
+        padding: 1% 2%;
+        border: 1px solid red;
+        background-color: lavender;
+        text-align: center;
+}
+
+img {
+    width: -webkit-fill-available;
+}
